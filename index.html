@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:8234/Tribute -->
+<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Tribute - Pratik Deshmukh's Website </title>
+        <link href="./Tribute - My ASP.NET Web Page_files/jquery.ui.all.css" rel="stylesheet" type="text/css">
+        <link href="./Tribute - My ASP.NET Web Page_files/Site.css" rel="stylesheet" type="text/css">
+        <link href="http://localhost:8234/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <script src="./Tribute - My ASP.NET Web Page_files/jquery-3.4.1.min.js.download"></script>
+        <script src="./Tribute - My ASP.NET Web Page_files/jquery-ui-1.12.1.js.download"></script>
+        <script src="./Tribute - My ASP.NET Web Page_files/modernizr-2.8.3.js.download"></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title"><a href="http://localhost:8234/"><img style="border-radius: 50%; background: linear-gradient(145deg, #ffffff, #e6e6e6); box-shadow: 5px 5px 14px #c2c2c2, -5px -5px 14px #ffffff; " height="150" width="150" src="data:image/png;base64,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"></a></p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                            <ul>
+                               
+                                <h3><font color="brown"><li>Let's check the TATA Group's Website 👉🏻👉🏻 <a href="https://www.tatamotors.com/">TATA</a></li></font></h3>
+                            </ul>
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                           <I> <li>The Tata Group was founded as a private trading firm in 1868 by entrepreneur and philanthropist Jamsetji Nusserwanji Tata.<br> In 1902 the group incorporated the Indian Hotels Company to commission the Taj Mahal Palace & Tower, 
+					  the first luxury hotel in India, which opened the following year.</li></I><br>
+				   <I><li>Companies include Tata Consultancy Services, Tata Motors Tata Steel, Tata Chemicals, Tata Consumer Products, <br>Titan, Tata Capital, Tata Power, Indian Hotels, Tata Communications, Tata Digital, and Tata Electronics.
+					   Browse a list of companies below.</li></I>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            
+            <section class="content-wrapper main-content clear-fix">
+                
+
+<hgroup class="title">
+    <h1>Tribute:</h1>
+   <i><font color="Red"> <h2>Ratan Tata Sir</h2></font></i>
+</hgroup>
+<center>
+    <div class="bg">
+        <div class="box1">
+            <br> <br> <br> <br>
+            <h1 class="qwa"> Ratan  Naval Tata</h1>
+            <br><br>
+            <h4 class="qwa"> 28 December 1937- Present</h4>
+        </div>
+        <div class="box2">
+
+
+            <div class="img">
+                <img align="right" src="https://assets.telegraphindia.com/telegraph/2021/Apr/1619034810_ratan-tata.jpg" width="800" height="400">
+                <img>
+            </div>
+            <div class="qui">
+                <br> <br><br><br><br>
+                <pre class="tab1">         "Ups and downs in life are very important to keep us going<br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp because a straight line, even in an ECG."</pre>
+
+            </div>
+        </div>
+
+        <div class="box1">
+            <div class="detl">
+
+                What is special about Tata Group?
+The Tata Brand Has Been a Pioneering Brand of Many Services. From providing the first branded salt to establishing the first steel mill in India, Tata established its strong base from the very start for our developing country. 
+They also established five-star hospitality in India, IT services, power companies, etc.
+            </div>
+
+        </div>
+    </div>
+    ------------------------------------------------------------------------------------------------------------------------------------------------
+    <h4> By :Pratik Deshmukh </h4>
+</center>
+<style>
+    .bg {
+        border-radius: 37px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow: 27px 27px 66px #8c8c8c, -27px -27px 66px #ffffff;
+        padding: 30px 30px 30px 30px;
+    }
+    .qwa{
+        color:aliceblue;
+    }
+    .box1 {
+        background-color: black;
+        color: aliceblue;
+        height: 400px;
+        width: auto;
+        align-items:center; 
+        font-size:large;
+        text-align-last:center;
+    }
+    .box2 {
+        background-color: white;
+        color: black;
+        height: 400px;
+        width: auto;
+        text-align:match-parent;
+        text-align:left;
+     
+    }
+    .img{
+        
+        
+    }
+    .detl{
+        padding:100px 150px 150px 105px;
+        text-space-collapse:collapse;
+    }
+    .qui {
+        tab-size: 2;
+        text-align: left;
+        font-size: large;
+    }
+</style>
+            </section>
+        </div>
+        <div class="footer-basic">
+            <footer>
+                                <center>
+                    <br>
+                    <h2 style="color:black;">Connect Us :)</h2>
+                    <br>
+                    <a href="https://www.facebook.com/profile.php?id=100064116360555">
+                        <img class="smd" height="40" width="40" src="https://i.pcmag.com/imagery/articles/04HUXgEu0I3mdCOejOjQpNE-5..v1620748900.jpg">
+                    </a>
+                    <a href="https://www.instagram.com/0491sunny/">
+                        <img class="smd" height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg">
+                    </a>
+                    <a href="***twitter">
+                        <img class="smd" height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1200px-Twitter-logo.svg.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/pratik-deshmukh-248b09246/">
+                        <img class="smd" height="40" width="40" src="https://cdn.pixabay.com/photo/2017/08/22/11/56/linked-in-2668700_960_720.png">
+                    </a>
+                    <a href="https://www.dypiemr.ac.in/">
+                        <img class="smd" height="40" width="40" src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/25397/2020/2/6/Campus%20view%20of%20DY%20Patil%20International%20University%20Akurdi_Campus-view.jpg">
+                    </a>
+<p class="copyright">Made with ❤ by Pratik Deshmukh © 2022</p>
+                    <br><br> <br><br>
+                </center>
+
+            </footer>
+        </div>
+      <style>
+          .footer-basic{
+          }
+          .smd {
+              padding: 2px 2px 2px 2px;
+              margin-left: 5px;
+              border-radius: 50%;
+              background: linear-gradient(145deg, #ffffff, #e6e6e6);
+              box-shadow: 8px 8px 20px #666666, -8px -8px 20px #ffffff;
+          }
+          .copyright {
+              font-size:medium;
+           
+              color:black;
+              font-style:oblique;
+          }
+      </style>
+            
+        
+    
+</body></html>
